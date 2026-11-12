@@ -27,3 +27,6 @@ dist/
 # OS files
 .DS_Store
 Thumbs.db
+
+**/application.properties
+!**/application.example.properties
