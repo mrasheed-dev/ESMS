@@ -45,6 +45,11 @@ public class Attendance
 	@ManyToOne
 	@JoinColumn(name = "subject_id", nullable = false)
 	private Subject subject;
+	
+	public Attendance()
+	{
+		
+	}
 
 	public Long getId() {
 		return id;

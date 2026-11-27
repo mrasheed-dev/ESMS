@@ -51,6 +51,11 @@ public class Fee
 	@ManyToOne
 	@JoinColumn(name = "course_id", nullable = false)
 	private Course course;
+	
+	public Fee()
+	{
+		
+	}
 
 	public Long getId() {
 		return id;
